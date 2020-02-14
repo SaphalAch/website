@@ -1,0 +1,229 @@
+/*---------------------------------------
+   Social icon
+-----------------------------------------*/
+
+.social-icon {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.social-icon li {
+    display: inline-block;
+    list-style: none;
+}
+
+.social-icon li a {
+    border: 2px solid #292929;
+    color: #292929;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    margin: 22px 12px 10px 12px;
+}
+
+.social-icon li a:hover {
+    border-color: #bfba55;
+    color: #bfba55;
+    transform: scale(1.1);
+}
+
+.navbar-default .navbar-brand {
+  color: #555;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin: 0;
+}
+
+.navbar-default .navbar-toggle {
+     border: none;
+     padding-top: 10px;
+  }
+  /*---------------------------------------
+     Gallery section
+  -----------------------------------------*/
+
+  #gallery span {
+    display: block;
+    padding-bottom: 32px;
+  }
+
+  #gallery .col-md-6 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #gallery .gallery-thumb {
+    background-color: #ffffff;
+    box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
+    cursor: pointer;
+    display: block;
+    position: relative;
+    top: 0px;
+    transition: all 0.4s ease-in-out;
+  }
+
+  #gallery .gallery-thumb:hover {
+    box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
+    top: -5px;
+  }
+
+  #gallery .gallery-thumb img {
+    width: 100%;
+  }
+
+  #gallery .col-md-12 p {
+    padding-top: 22px;
+    text-align: center;
+  }
+
+
+  /*---------------------------------------
+     Contact section
+  -----------------------------------------*/
+
+  #contact .col-md-4 {
+    padding-left: 0px;
+  }
+
+  #contact .col-md-12 {
+    padding-left: 0;
+  }
+
+  #contact form {
+    padding-top: 32px;
+  }
+
+  #contact .form-control {
+    border: 2px solid #f0f0f0;
+    box-shadow: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: all 0.4s ease-in-out;
+  }
+
+  #contact .form-control:hover {
+    border-color: #555;
+  }
+
+  #contact input {
+    height: 50px;
+  }
+
+  #contact input[type="submit"] {
+    background: black;
+    border-radius: 100px;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: all 0.4s ease-in-out;
+  }
+
+  #contact input[type="submit"]:hover {
+    background: #333;
+  }
+  /*---------------------------------------
+     Footer section
+  -----------------------------------------*/
+
+  footer {
+      background: #000;
+      color: #ffffff;
+      padding: 80px 0px;
+      position: relative;
+  }
+
+  footer .col-md-4 .fa {
+    color: #ffffff;
+    padding-right: 8px;
+  }
+
+  footer hr {
+    border-color: #121212;
+    margin-top: 62px;
+    margin-bottom: 42px;
+  }
+
+  footer .footer-copyright {
+    padding-top: 12px;
+  }
+  /* Back top */
+  .go-top {
+    background-color: #ffffff;
+    box-shadow: 1px 1.732px 12px 0px rgba( 0, 0, 0, .14 ), 1px 1.732px 3px 0px rgba( 0, 0, 0, .12 );
+    transition : all 1s ease;
+    bottom: 2em;
+    right: 2em;
+    color: #333;
+    font-size: 24px;
+    display: none;
+    position: fixed;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    text-align: center;
+    border-radius: 100%;
+  }
+
+  .go-top:hover {
+      background: #bfba55;
+      color: #ffffff;
+  }
+
+  /---------------------------------------
+     About section
+  -----------------------------------------/
+
+  #about .col-md-6 {
+    padding-top: 22px;
+    padding-bottom: 32px;
+  }
+
+  #about .col-md-6 img {
+    padding: 22px 0px 22px 22px;
+  }
+
+  #about .col-md-4 {
+    padding-bottom: 32px;
+  }
+
+  #about .col-md-4 img {
+    padding-top: 12px;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 3px;
+    border-radius: 60%;
+  }
+
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+
+  .fa-instagram {
+    background: grey;
+    color: black;
+  }
